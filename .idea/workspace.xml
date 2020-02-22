@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c4d1bd7-8e68-4ae4-8e13-6afe772829c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../lolek-website/website/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lolek-website/website/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lolek-website/website/src/scripts/insta.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lolek-website/website/src/scripts/insta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lolek-website/website/src/style/components/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../lolek-website/website/src/style/components/_navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lolek-website/website/src/style/pages/shop-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../lolek-website/website/src/style/pages/shop-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lolek-website/website/src/style/sections/_insta-gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../lolek-website/website/src/style/sections/_insta-gallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../lolek-website/website" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Y9uyHZlsrahK9b5FUIjjihj4hS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -58,6 +54,7 @@
       <workItem from="1582367387950" duration="356000" />
       <workItem from="1582367761811" duration="142000" />
       <workItem from="1582367993571" duration="5124000" />
+      <workItem from="1582375068904" duration="26000" />
     </task>
     <servers />
   </component>

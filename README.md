@@ -1,32 +1,24 @@
-# Webpack Frontend Starterkit
+#### Toys shop website written to practice design, html&amp;css, RWD skills.
 
-[![Dependabot badge](https://flat.badgen.net/dependabot/wbkd/webpack-starter?icon=dependabot)](https://dependabot.com/)
+###### In this project I used:
+* webpack with my base personal configuration(convert some images to base 64)
+* preprocesor sass
+* BEM convention
+* eslint with aitbnb config and personal config
+* simple javascript scripts
+* SPA in pure js
 
-A lightweight foundation for your next webpack based frontend project.
+## DEMO
+[Lolek Skep](https://bartekmajster.github.io/e-commerce-website/build/index.html) - by bartekmajster
 
+### Picture source:
+* [link](https://www.pexels.com/search/toys/) - by cottonbro
 
-### Installation
-
-```
-npm install
-```
-
-### Start Dev Server
-
-```
-npm start
-```
-
-### Build Prod Version
-
-```
-npm run build
-```
-
-### Features:
-
-* ES6 Support via [babel](https://babeljs.io/) (v7)
-* SASS Support via [sass-loader](https://github.com/jtangelder/sass-loader)
-* Linting via [eslint-loader](https://github.com/MoOx/eslint-loader)
-
-When you run `npm run build` we use the [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) to move the css to a separate file. The css file gets included in the head of the `index.html`.
+### To do:
+* ~~add links to nav menu~~ and footer
+* ~~improve rwd especially for small devices~~
+* ~~fix nav bar for mobile~~
+* add site with products list
+* add site with single product(picture description,price)
+* ~~make animation "hero animation" on main page~~
+* make animation for the quote(slide)
