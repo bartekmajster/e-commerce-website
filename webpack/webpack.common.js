@@ -47,7 +47,7 @@ module.exports = {
 					options: {
 						name: '[path][name].[ext]'
 					}
-				},
+				}/*,
 					{
 						loader: 'image-webpack-loader',
 						options: {
@@ -71,7 +71,7 @@ module.exports = {
 								quality: 75
 							}
 						}
-					},
+					}*/
 				]
 			}
 		]
