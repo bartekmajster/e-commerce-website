@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c4d1bd7-8e68-4ae4-8e13-6afe772829c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/app.5e9ac77a.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/app.5e9ac77a.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/webpack.common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +58,7 @@
       <workItem from="1582367387950" duration="356000" />
       <workItem from="1582367761811" duration="142000" />
       <workItem from="1582367993571" duration="5124000" />
-      <workItem from="1582375068904" duration="94000" />
+      <workItem from="1582375068904" duration="1549000" />
     </task>
     <servers />
   </component>
@@ -74,5 +78,9 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="861" y="499" key="EditFileWatcherDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1582369147782" />
+    <state x="1010" y="583" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1582376547128">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1010" y="583" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1582376547128" />
   </component>
 </project>
