@@ -1,0 +1,11 @@
+@mixin button{
+  padding: 0px 30px;
+  background-color: $dim_gray;
+  color: $gainsboro;
+  font-size: 23px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+}

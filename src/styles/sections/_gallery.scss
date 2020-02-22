@@ -1,0 +1,83 @@
+.gallery {
+  width: 100%;
+  height: 300px;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr;
+  grid-column-gap: 20px;
+
+  &__image {
+    position: relative;
+    background: url("../img/gallery-i2.jpg") top;
+    background-size: cover;
+
+    .wrapper {
+      position: absolute;
+      bottom: 20px;
+
+      &__title {
+        font-size: 32px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: $dim_gray;
+      }
+
+      &__button {
+        @include button;
+
+        text-align: center;
+      }
+
+      .button--right{
+        float: right;
+      }
+    }
+
+    .wrapper--left{
+      left: 20px;
+    }
+
+    .wrapper--right{
+      right: 20px;
+    }
+  }
+
+  .gallery--left{
+    background: url("~img/gallery-i1.jpg") center;
+    background-size: cover;
+    transform: translateX(-100%);
+    transition: all .6s .1s ease-in-out;
+    opacity: 0;
+
+    &.active{
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+
+  .gallery--middle{
+    background: url("~img/gallery-i2.jpg") top;
+    background-size: cover;
+    transform: scale(0);
+    transition: all .6s .1s ease-in-out;
+    opacity: 0;
+
+    &.active{
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  .gallery--right{
+    background: url("~img/gallery-i3.jpg") center;
+    background-size: cover;
+    transform: translateX(100%);
+    transition: all .6s .1s ease-in-out;
+    opacity: 0;
+
+    &.active{
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
+}

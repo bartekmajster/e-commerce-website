@@ -1,0 +1,99 @@
+.nav {
+  left: 0;
+  top: 40px;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  height: 80px;
+  background-color: $dim_gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: .3s .1s ease-in-out;
+  transform: translateY(0px);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+
+  &__item{
+    width: 100%;
+    display: flex;
+
+    .nav__list{
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-right: 25px;
+      float: left;
+    }
+
+    .nav__link{
+      padding: 5px 10px;
+      color: $gainsboro;
+      text-decoration: none;
+      white-space: nowrap;
+
+      &:hover{
+        background-color: $gainsboro;
+        color: $dim_gray;
+      }
+    }
+
+    .nav__bag {
+      display: block;
+      width: 27px;
+      height: 27px;
+      background: url("~img/bag.svg");
+      margin-right: 5px;
+      transform: translateY(-4px);
+    }
+
+    .nav__login {
+      display: block;
+      margin-right: 8px;
+      width: 22px;
+      height: 22px;
+      background: url("~img/login.svg");
+      transform: translateY(-1px);
+    }
+
+    .nav__search {
+      display: block;
+      width: 30px;
+      height: 30px;
+      background: url("~img/glass.svg");
+    }
+  }
+
+  &__item--left{
+    .left{
+      margin-left: 25px;
+    }
+  }
+
+  &__logo{
+    background: url("~img/lolek-logo-white.png") center no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    transition: transform .3s .1s ease-in-out, scale .3s .1s ease-in-out;
+  }
+
+  &__item--right{
+    justify-content: flex-end;
+    li{
+      display: flex;
+      align-items: center;
+    }
+    button{
+      border: 0;
+      background-color: transparent;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+}
+
+@media(max-width: 1080px){
+  .nav__item{
+    display: none;
+  }
+}
+

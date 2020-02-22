@@ -1,0 +1,34 @@
+.warranty {
+  margin-top: 20px;
+  padding-top: 130px;
+  width: 100%;
+  height: 700px;
+  background: url("~img/section-warranty.jpg") center;
+  background-size: cover;
+
+  &__container {
+    width: 520px;
+    margin: 0 auto;
+    color: $dim_gray;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__description {
+    margin-bottom: 20px;
+  }
+
+  &__button {
+    @include button;
+
+    width: 220px;
+  }
+}

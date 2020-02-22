@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5c4d1bd7-8e68-4ae4-8e13-6afe772829c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../lolek-website/website/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../lolek-website/website/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lolek-website/website/src/scripts/insta.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lolek-website/website/src/scripts/insta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lolek-website/website/src/style/components/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../lolek-website/website/src/style/components/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lolek-website/website/src/style/pages/shop-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../lolek-website/website/src/style/pages/shop-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lolek-website/website/src/style/sections/_insta-gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../lolek-website/website/src/style/sections/_insta-gallery.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../lolek-website/website" />
+  </component>
+  <component name="ProjectId" id="1Y9uyHZlsrahK9b5FUIjjihj4hS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/scripts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$USER_HOME$/Downloads/webpack-starter-master" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c4d1bd7-8e68-4ae4-8e13-6afe772829c5" name="Default Changelist" comment="" />
+      <created>1582367383530</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582367383530</updated>
+      <workItem from="1582367387950" duration="356000" />
+      <workItem from="1582367761811" duration="142000" />
+      <workItem from="1582367993571" duration="5124000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="880" y="385" key="#ESLint" timestamp="1582371979389">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="880" y="385" key="#ESLint/0.0.2560.1440@0.0.2560.1440" timestamp="1582371979389" />
+    <state x="968" y="455" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582367733128">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="968" y="455" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1582367733128" />
+    <state x="861" y="499" key="EditFileWatcherDialog" timestamp="1582369147782">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="861" y="499" key="EditFileWatcherDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1582369147782" />
+  </component>
+</project>

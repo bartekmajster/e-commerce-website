@@ -1,0 +1,146 @@
+$gainsboro: hsl(60, 4%, 90%);
+$dim_gray: hsl(60, 4%, 25%);
+
+.hamburger {
+  display: none;
+  position: fixed;
+  top: 70px;
+  left: 20px;
+  z-index: 10;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  outline: none;
+}
+
+@media(max-width: 1080px) {
+  .hamburger{
+    display: block;
+  }
+}
+
+@media(max-width: 840px) {
+  .hamburger{
+    top: 30px;
+  }
+}
+
+
+.hamburger, .navigation {
+  transition: transform .3s .1s ease-in-out, top .3s .1s ease-in-out;
+}
+
+
+.hamburger__box {
+  width: 35px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+@mixin hamburger-line {
+  width: 100%;
+  height: 3px;
+  background-color: $gainsboro;
+  position: absolute;
+}
+
+.hamburger__inner {
+  @include hamburger-line;
+
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: background-color .1s .2s ease-in-out;
+}
+
+.hamburger__inner::before,
+.hamburger__inner::after {
+  @include hamburger-line;
+
+  content: '';
+  left: 0;
+  transition: transform .2s .2s ease-in-out;
+}
+
+.hamburger__inner::before {
+  top: -10px;
+}
+
+.hamburger__inner::after {
+  top: 10px;
+}
+
+.hamburger--active .hamburger__inner {
+  background-color: transparent;
+}
+
+.hamburger--active .hamburger__inner:before {
+  transform: translateY(10px) rotate(45deg);
+}
+
+.hamburger--active .hamburger__inner:after {
+  transform: translateY(-10px) rotate(-45deg);
+}
+
+.navigation {
+  height: 100vh;
+  width: 240px;
+  background-color: $dim_gray;
+  position: fixed;
+  padding-top: 50px;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  transform: translateX(-250px);
+  display: flex;
+  justify-content: center;
+
+  a{
+    text-decoration: none;
+    color: $gainsboro;
+  }
+
+  li {
+    font-size: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+}
+
+
+.navigation--active {
+  transform: translateX(0px);
+}
+
+.navigation__list {
+  margin-top: 50px;
+  list-style: none;
+}
+
+.navigation__item {
+  margin-bottom: 20px;
+
+  a {
+    text-decoration: none;
+    color: $dim_gray;
+  }
+}
+
+.overlap {
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: -9;
+  width: calc(100% - 240px);
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: visibility 0s ease .4s, opacity .4s ease;
+}
+
+.overlap--active {
+  z-index: 10;
+  opacity: 1;
+}

@@ -1,0 +1,22 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "no-console": "off",
+    "no-restricted-globals": ["error", "event", "fdescribe"],
+    "class-methods-use-this": ["error"]
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jasmine": true,
+    "es6": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
+  }
+}

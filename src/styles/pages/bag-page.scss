@@ -1,0 +1,18 @@
+#bag{
+  .content{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 95px;
+
+    .content_top{
+      width: 100%;
+      h1{
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

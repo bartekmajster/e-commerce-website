@@ -1,0 +1,33 @@
+.about {
+  margin-top: 15px;
+  padding: 20px;
+  width: 100%;
+  background-color: $dim_gray;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__logo {
+    width: 40%;
+    height: 150px;
+    background: url("~img/lolek-logo-white.png") center no-repeat;
+    background-size: contain;
+  }
+
+  &__hr {
+    width: 2px;
+    height: 200px;
+    background-color: $gainsboro;
+  }
+
+  &__description {
+    width: 40%;
+    color: $gainsboro;
+    margin-left: 5%;
+
+    p:nth-of-type(1) {
+      margin-bottom: 30px;
+    }
+  }
+}
