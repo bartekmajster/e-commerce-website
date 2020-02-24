@@ -1,12 +1,11 @@
 #### Toys shop website written to practice design, html&amp;css, RWD skills.
 
 ###### In this project I used:
-* webpack with my base personal configuration(convert some images to base 64)
+* webpack with my base personal configuration
 * preprocesor sass
 * BEM convention
 * eslint with aitbnb config and personal config
 * simple javascript scripts
-* SPA in pure js
 
 ## DEMO
 [Lolek Skep](https://bartekmajster.github.io/e-commerce-website/build/index.html) - by bartekmajster

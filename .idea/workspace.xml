@@ -2,79 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c4d1bd7-8e68-4ae4-8e13-6afe772829c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/4.221898de.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/4.221898de.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/app.f8d832d3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/app.f8d832d3.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/login.7c5bc5fb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/login.7c5bc5fb.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/main.d7e46c90.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/main.d7e46c90.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/shop.9567c413.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/shop.9567c413.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/login-bundle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/login-bundle.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main-bundle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main-bundle.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/public/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/shop-bundle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/shop-bundle.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/shop.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/bag.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/comment.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/cursor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/facebook.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/gallery-i1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/gallery-i2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/gallery-i3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/glass.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/heart.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/heroimage.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/insta-gallery-i1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/insta-gallery-i10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/insta-gallery-i11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/insta-gallery-i2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/insta-gallery-i3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/insta-gallery-i4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/insta-gallery-i5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/insta-gallery-i6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/insta-gallery-i7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/insta-gallery-i8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/insta-gallery-i9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/instagram.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/login.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/lolek-logo-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/mastercard.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/paypal.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/quote-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/quote-right.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/sale-i1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/sale-i2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/section-warranty.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/shop/product_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/shop/product_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/shop/product_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/shop/product_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/shop/product_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/shop/product_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/shop/product_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/shop/product_7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/shop/product_8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/shop/product_9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/twitter.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/visa.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/img/youtube.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/bag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/bag.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/glass.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/login.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/login.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/shop-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/shop-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/_navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/pages/login-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pages/login-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/pages/shop-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pages/shop-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +73,7 @@
       <workItem from="1582367761811" duration="142000" />
       <workItem from="1582367993571" duration="5124000" />
       <workItem from="1582375068904" duration="2837000" />
-      <workItem from="1582494684857" duration="15061000" />
+      <workItem from="1582494684857" duration="15308000" />
     </task>
     <servers />
   </component>
