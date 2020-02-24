@@ -5,11 +5,14 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
 	entry: {
-		app: Path.resolve(__dirname, '../src/scripts/index.js')
+		app: Path.resolve(__dirname, '../src/scripts/index.js'),
+		main: Path.resolve(__dirname, '../src/scripts/main-page.js'),
+		shop: Path.resolve(__dirname, '../src/scripts/shop-page.js'),
+		login: Path.resolve(__dirname, '../src/scripts/login-page.js')
 	},
 	output: {
 		path: Path.join(__dirname, '../build'),
-		filename: 'js/[name].js'
+		filename: 'js/[name].js',
 	},
 	optimization: {
 		splitChunks: {
@@ -23,8 +26,20 @@ module.exports = {
 			{from: Path.resolve(__dirname, '../public'), to: 'public'}
 		]),
 		new HtmlWebpackPlugin({
-			template: Path.resolve(__dirname, '../src/index.html')
-		})
+			filename: 'index.html',
+			template: Path.resolve(__dirname, '../src/index.html'),
+			chunks: ['app','main']
+		}),
+		new HtmlWebpackPlugin({
+			filename: 'shop.html',
+			template: Path.resolve(__dirname, '../src/shop.html'),
+			chunks: ['app','shop']
+		}),
+		new HtmlWebpackPlugin({
+				filename: 'login.html',
+				template: Path.resolve(__dirname, '../src/login.html'),
+				chunks: ['app','login']
+			})
 	],
 	resolve: {
 		modules: [Path.resolve(__dirname, '../src'), 'node_modules'],

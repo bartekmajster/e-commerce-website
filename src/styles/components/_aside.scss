@@ -1,0 +1,18 @@
+aside {
+  height: 40px;
+  width: 100%;
+  background-color: $gainsboro;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  span {
+    display: block;
+    text-transform: uppercase;
+    color: $dim_gray;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+  }
+}
