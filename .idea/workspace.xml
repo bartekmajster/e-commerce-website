@@ -2,22 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c4d1bd7-8e68-4ae4-8e13-6afe772829c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/main-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/shop-page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/components/_aside.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/pages/main-page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/bundle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/bundle.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/1.677a580c.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/1.677a580c.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/app.5e9ac77a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/app.5e9ac77a.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/public/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/login-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/4.221898de.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/4.221898de.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/app.f8d832d3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/app.f8d832d3.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/login.7c5bc5fb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/login.7c5bc5fb.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/main.d7e46c90.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/main.d7e46c90.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/shop.9567c413.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/shop.9567c413.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/login-bundle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/login-bundle.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main-bundle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main-bundle.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/public/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/shop-bundle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/shop-bundle.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/shop.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/src/img/bag.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/src/img/comment.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/src/img/cursor.png" beforeDir="false" />
@@ -62,18 +67,14 @@
       <change beforePath="$PROJECT_DIR$/build/src/img/twitter.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/src/img/visa.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/src/img/youtube.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/spa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/bag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/bag.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/glass.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/login.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/login.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/shop-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/shop-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/components/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/_navigation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/pages/login-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pages/login-page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/pages/shop-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pages/shop-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/sections/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/sections/_gallery.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/sections/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/sections/_hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/sections/_quotation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/sections/_quotation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/webpack.common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack/webpack.config.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/webpack.config.prod.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +106,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -143,7 +145,7 @@
       <workItem from="1582367761811" duration="142000" />
       <workItem from="1582367993571" duration="5124000" />
       <workItem from="1582375068904" duration="2837000" />
-      <workItem from="1582494684857" duration="7650000" />
+      <workItem from="1582494684857" duration="15061000" />
     </task>
     <servers />
   </component>

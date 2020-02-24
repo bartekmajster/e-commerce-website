@@ -17,6 +17,15 @@ body {
   flex-direction: column;
 }
 
+@media(max-width: 840px) {
+  aside {
+    display: none;
+  }
+  .nav {
+    top: 0px;
+  }
+}
+
 .content {
   height: 90vh;
   display: flex;
