@@ -10,7 +10,8 @@ module.exports = {
 		shop: Path.resolve(__dirname, '../src/scripts/shop-page.js'),
 		login: Path.resolve(__dirname, '../src/scripts/login-page.js'),
 		about: Path.resolve(__dirname, '../src/scripts/about-page.js'),
-		bag: Path.resolve(__dirname, '../src/scripts/bag-page.js')
+		bag: Path.resolve(__dirname, '../src/scripts/bag-page.js'),
+		product: Path.resolve(__dirname, '../src/scripts/product-page.js')
 	},
 	output: {
 		path: Path.join(__dirname, '../build'),
@@ -51,6 +52,11 @@ module.exports = {
 			filename: 'bag.html',
 			template: Path.resolve(__dirname, '../src/bag.html'),
 			chunks: ['app', 'bag']
+		}),
+		new HtmlWebpackPlugin({
+			filename: 'product.html',
+			template: Path.resolve(__dirname, '../src/product.html'),
+			chunks: ['app', 'product']
 		})
 
 	],

@@ -2,25 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c4d1bd7-8e68-4ae4-8e13-6afe772829c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/bag-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/product-page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/pages/product-page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/about-bundle.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/about-bundle.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bag-bundle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bag-bundle.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bag.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/js/0.ede61a36.chunk.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/js/0.ede61a36.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/about.c9434c43.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/about.c9434c43.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/app.f75c99c6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/app.f75c99c6.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/login.f5a88b73.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/login.f5a88b73.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/main.1d2ad372.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/main.1d2ad372.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/shop.7e65c6cd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/shop.7e65c6cd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/about.20d89750.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/about.20d89750.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/app.8536aa26.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/app.8536aa26.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/bag.f34cd385.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/bag.f34cd385.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/login.9ed11191.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/login.9ed11191.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/main.80975673.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/main.80975673.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/shop.9bc6a55c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/shop.9bc6a55c.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/login-bundle.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/login-bundle.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/login.html" beforeDir="false" />
@@ -81,15 +87,6 @@
       <change beforePath="$PROJECT_DIR$/build/src/img/svg_icons/twitter.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/src/img/svg_icons/visa.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/src/img/svg_icons/youtube.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/_aside.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/_aside.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/components/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/_navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/pages/bag-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pages/bag-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/pages/login-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pages/login-page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/webpack.common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,8 +97,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -165,7 +162,7 @@
       <workItem from="1582367761811" duration="142000" />
       <workItem from="1582367993571" duration="5124000" />
       <workItem from="1582375068904" duration="2837000" />
-      <workItem from="1582494684857" duration="43200000" />
+      <workItem from="1582494684857" duration="48324000" />
     </task>
     <servers />
   </component>
