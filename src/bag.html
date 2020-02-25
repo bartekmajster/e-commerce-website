@@ -44,35 +44,65 @@
   <span>darmowa dostawa na wszystkie zabawki</span>
   <span>wysyłka tego samego dnia</span>
 </aside>
-<div class="content">
-  <div class="content__top">
-    <h1>Zaloguj się</h1>
-  </div>
-  <div class="content__bottom">
-    <div class="content_left">
-      <form>
-        <label for="e-mail">Adres e-mail:</label>
-        <input type="email" id="e-mail">
-        <label for="password">Hasło:</label>
-        <input type="password" id="password">
-        <button>Zaloguj się</button>
-        <a href="#">Zapomniałeś/aś hasła?</a>
-      </form>
+
+<section class="heroimage">
+  <h1 class="heroimage__title">koszyk</h1>
+</section>
+
+<section class="content">
+
+  <ul class="content__head head">
+    <li class="head__item head__item--product">produkt</li>
+    <li class="head__item">cena</li>
+    <li class="head__item">ilość</li>
+    <li class="head__item">razem</li>
+  </ul>
+
+  <ul class="content__body body">
+    <li class="body__item item">
+      <div class="item__info info">
+        <div class="info__image"></div>
+        <div class="info__description">Kolorowe klocki - zestaw</div>
+      </div>
+      <div class="item__info">100 zł</div>
+      <div class="item__info">2</div>
+      <div class="item__info">200 zł</div>
+    </li>
+    <li class="body__item item">
+      <div class="item__info info">
+        <div class="info__image"></div>
+        <div class="info__description">Kolorowe klocki - zestaw</div>
+      </div>
+      <div class="item__info">100 zł</div>
+      <div class="item__info">2</div>
+      <div class="item__info">200 zł</div>
+    </li>
+  </ul>
+
+  <div class="body__total total">
+    <form class="total__coupon">
+      <input type="text">
+      <button>Dodaj kupon</button>
+    </form>
+    <div class="total__sum">
+      <p>Razem</p>
+      <p>400 zł</p>
     </div>
-    <div class="content_right">
-      <h1>Nowy klient?</h1>
-      <p>Załóż własne konto aby zyskać dostęp do:</p>
-      <ul>
-        <li>Szybkiej płatności</li>
-        <li>Zapisania wielu adresów</li>
-        <li>Historii swoich zamówień</li>
-        <li>Śledzenia nowych zamówień</li>
-        <li>Listy życzeń</li>
-      </ul>
-      <button>Stwórz konto</button>
+    <div class="total__shipping">
+      <div>
+        <p class="total__title">Wysyłka</p>
+        <ul>
+          <li><p>Kurier: 20 zł</p><input type="radio"></li>
+          <li><p>Paczkomat: 9 zł</p><input type="radio"></li>
+          <li><p>Pocztex48: 15 zł</p><input type="radio"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="total__button">
+      <button>Zamów</button>
     </div>
   </div>
-</div>
+</section>
 
 <footer class="footer">
   <div class="footer__top">

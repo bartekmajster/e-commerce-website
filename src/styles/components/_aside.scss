@@ -16,3 +16,9 @@ aside {
     text-align: center;
   }
 }
+
+@media(max-width: 840px) {
+  aside {
+    display: none;
+  }
+}

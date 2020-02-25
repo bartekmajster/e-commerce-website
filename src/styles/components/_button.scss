@@ -9,3 +9,12 @@
   outline: none;
   border: 0px;
 }
+
+@mixin input{
+  padding: 9px 13px;
+  width: 350px;
+  height: 40px;
+  font-size: 15px;
+  border: 2px solid $dim_gray;
+  outline: none;
+}

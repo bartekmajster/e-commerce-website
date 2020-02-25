@@ -1,18 +1,191 @@
-#bag{
-  .content{
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding-top: 95px;
+@import '../base/typography';
+@import '../base/reset';
+@import '../components/aside';
+@import '../components/navigation';
+@import '../components/button';
+@import '../components/footer';
+@import '../components/magic-mouse';
+@import '../components/hamburger';
 
-    .content_top{
-      width: 100%;
-      h1{
-        text-align: center;
-        text-transform: uppercase;
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: $gainsboro;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heroimage {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('~img/about_page/heroimage.jpg') bottom no-repeat;
+  background-size: cover;
+
+  &__title {
+    font-size: 65px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: $dim_gray;
+    text-shadow: 4px 3px 0 $gainsboro;
+    transform: scaleY(1.2);
+    text-align: center;
+  }
+}
+
+.content {
+  margin-top: 200px;
+  margin-bottom: 80px;
+  width: 60%;
+
+  &__head {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px dashed $dim_gray;
+  }
+
+  &__body {
+    width: 100%;
+  }
+}
+
+.head {
+  &__item {
+    padding: 20px;
+    text-align: right;
+    font-weight: 700;
+  }
+}
+
+.head__item--product{
+  text-align: left;
+}
+
+.item {
+  width: 100%;
+  border-bottom: 2px dashed $dim_gray;
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr;
+  font-size: 20px;
+
+  &__info{
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 auto;
+    padding: 20px;
+  }
+}
+
+.info {
+  margin: 0;
+
+  &__image{
+    width: 160px;
+    height: 160px;
+    background: url("~img/insta_gallery/insta-gallery-i6.jpg") center;
+    background-size: cover;
+    border: 1px solid $dim_gray;
+    margin-right: 20px;
+    border-radius: 3px;
+  }
+}
+
+.total{
+
+  &__coupon{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+
+    input{
+      @include input;
+
+      width: 200px;
+      margin-right: 20px;
+    }
+
+    button{
+      @include button;
+    }
+  }
+
+  &__sum{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    p{
+      padding: 20px;
+    }
+  }
+
+  &__shipping{
+    display: flex;
+    justify-content: flex-end;
+
+    li{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      font-size: 20px;
+      align-items: center;
+
+      p{
+        margin-right: 20px;
+      }
+
+      input{
+        margin-right: 20px;
       }
     }
+  }
+
+  &__title{
+    text-align: right;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  &__button{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+
+    button{
+      @include button;
+    }
+  }
+}
+
+@media(max-width: 1500px){
+  .content{
+    width: 95%;
+  }
+}
+
+@media(max-width: 600px){
+  .content {
+    margin-top: 50px;
+
+    &__head {
+      display: none;
+    }
+  }
+
+  .item{
+    display: flex;
+    flex-wrap: wrap;
   }
 }
