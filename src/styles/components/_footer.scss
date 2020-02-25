@@ -41,22 +41,22 @@
       }
 
       div.social_icon:nth-of-type(1) {
-        background: url("~img/facebook.svg") center no-repeat;
+        background: url("~img/svg_icons/facebook.svg") center no-repeat;
         background-size: contain;
       }
 
       div.social_icon:nth-of-type(2) {
-        background: url("~img/twitter.svg") center no-repeat;
+        background: url("~img/svg_icons//twitter.svg") center no-repeat;
         background-size: contain;
       }
 
       div.social_icon:nth-of-type(3) {
-        background: url("~img/instagram.svg") center no-repeat;
+        background: url("~img/svg_icons//instagram.svg") center no-repeat;
         background-size: contain;
       }
 
       div.social_icon:nth-of-type(4) {
-        background: url("~img/youtube.svg") center no-repeat;
+        background: url("~img/svg_icons//youtube.svg") center no-repeat;
         background-size: contain;
       }
     }
@@ -70,17 +70,17 @@
       }
 
       div.payment_icon:nth-of-type(1) {
-        background: url("~img/visa.svg") center no-repeat;
+        background: url("~img/svg_icons//visa.svg") center no-repeat;
         background-size: contain;
       }
 
       div.payment_icon:nth-of-type(2) {
-        background: url("~img/mastercard.svg") center no-repeat;
+        background: url("~img/svg_icons//mastercard.svg") center no-repeat;
         background-size: contain;
       }
 
       div.payment_icon:nth-of-type(3) {
-        background: url("~img/paypal.svg") center no-repeat;
+        background: url("~img/svg_icons//paypal.svg") center no-repeat;
         background-size: contain;
       }
     }
@@ -103,7 +103,7 @@
     div.footer_logo {
       width: 60%;
       height: 70px;
-      background: url("~img/lolek-logo-white.png") center no-repeat;
+      background: url("~img/common/lolek-logo-white.png") center no-repeat;
       background-size: contain;
     }
 

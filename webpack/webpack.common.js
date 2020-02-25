@@ -8,7 +8,8 @@ module.exports = {
 		app: Path.resolve(__dirname, '../src/scripts/index.js'),
 		main: Path.resolve(__dirname, '../src/scripts/main-page.js'),
 		shop: Path.resolve(__dirname, '../src/scripts/shop-page.js'),
-		login: Path.resolve(__dirname, '../src/scripts/login-page.js')
+		login: Path.resolve(__dirname, '../src/scripts/login-page.js'),
+		about: Path.resolve(__dirname, '../src/scripts/about-page.js')
 	},
 	output: {
 		path: Path.join(__dirname, '../build'),
@@ -39,7 +40,12 @@ module.exports = {
 				filename: 'login.html',
 				template: Path.resolve(__dirname, '../src/login.html'),
 				chunks: ['app','login']
-			})
+			}),
+		new HtmlWebpackPlugin({
+			filename: 'about.html',
+			template: Path.resolve(__dirname, '../src/about.html'),
+			chunks: ['app','about']
+		})
 	],
 	resolve: {
 		modules: [Path.resolve(__dirname, '../src'), 'node_modules'],

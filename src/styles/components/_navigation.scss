@@ -40,7 +40,7 @@
       display: block;
       width: 27px;
       height: 27px;
-      background: url("~img/bag.svg") center no-repeat;
+      background: url("~img/svg_icons/bag.svg") center no-repeat;
       margin-right: 5px;
       transform: translateY(-4px);
     }
@@ -50,7 +50,7 @@
       margin-right: 8px;
       width: 22px;
       height: 22px;
-      background: url("~img/login.svg") center no-repeat;
+      background: url("~img/svg_icons/login.svg") center no-repeat;
     }
   }
 
@@ -61,7 +61,7 @@
   }
 
   &__logo{
-    background: url("~img/lolek-logo-white.png") center no-repeat;
+    background: url("~img/common/lolek-logo-white.png") center no-repeat;
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -87,5 +87,18 @@
   .nav__item{
     display: none;
   }
+}
+
+@media(max-width: 840px) {
+  aside {
+    display: none;
+  }
+  .nav {
+    top: 0px;
+  }
+}
+
+@media(max-width: 800px){
+
 }
 

@@ -1,14 +1,331 @@
-#about{
-  .content{
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@import '../base/typography';
+@import '../base/reset';
+@import '../components/aside';
+@import '../components/navigation';
+@import '../components/button';
+@import '../components/footer';
+@import '../components/magic-mouse';
+@import '../components/hamburger';
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: $gainsboro;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.heroimage {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('~img/about_page/heroimage.jpg') bottom no-repeat;
+  background-size: cover;
+
+  &__title {
+    font-size: 65px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: $dim_gray;
+    text-shadow: 4px 3px 0 $gainsboro;
+    transform: scaleY(1.2);
   }
-  footer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
+}
+
+.navBar {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: $dim_gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+
+  &__list {
+    display: flex;
   }
 
+  &__item {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px;
+  }
+
+  &__link {
+    color: $gainsboro;
+    text-decoration: none;
+  }
 }
+
+.navBar__link--active {
+  border-bottom: 3px solid $gainsboro;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.logo {
+  margin: 100px 0;
+  width: 70%;
+  height: 200px;
+  background: url('~img/common/lolek-logo-gray.png') center no-repeat;
+  background-size: contain;
+}
+
+.content {
+  width: 60%;
+
+  &__image {
+    height: 700px;
+    background: url('~img/about_page/contentimage.jpg') top no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+  }
+
+  &__description {
+    margin-top: 20px;
+
+    p {
+      margin-bottom: 20px;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+  }
+
+  &__signature {
+    width: 200px;
+    height: 100px;
+    background: url('~img/about_page/signature.png') center no-repeat;
+    background-size: contain;
+  }
+}
+
+.mission {
+  width: 100%;
+  padding: 50px 0px;
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $dim_gray;
+  color: $gainsboro;
+
+  &__container {
+    width: 80%;
+    text-align: center;
+
+    h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 50px;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 30px;
+      position: relative;
+
+      &:before {
+        content: '';
+        width: 400px;
+        height: 1px;
+        background-color: $gainsboro;
+        margin-right: 30px;
+      }
+
+      &:after {
+        content: '';
+        width: 400px;
+        height: 1px;
+        background-color: $gainsboro;
+        margin-left: 30px;
+      }
+    }
+
+    p {
+      line-height: 30px;
+    }
+  }
+}
+
+.advantages {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 80px 0;
+
+  &__container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.col {
+  width: 20%;
+  margin: 0 5%;
+  color: $dim_gray;
+
+  &__icon {
+    width: 70%;
+    height: 150px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  &__description {
+    text-align: justify;
+  }
+}
+
+.icon--quality {
+  background: url('~img/about_page/explore.svg') center no-repeat;
+  background-size: contain;
+}
+
+.icon--safety {
+  background: url('~img/about_page/offline.svg') center no-repeat;
+  background-size: contain;
+}
+
+.icon--experience {
+  background: url('~img/about_page/public.svg') center no-repeat;
+  background-size: contain;
+}
+
+.gallery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.wrapper {
+  width: 70%;
+  height: 1500px;
+
+  &__mainimage {
+    width: 100%;
+    height: 50%;
+    background: url('~img/insta_gallery/insta-gallery-i4.jpg') center no-repeat;
+    background-size: cover;
+    border: 10px solid $gainsboro;
+  }
+}
+
+.otherimages {
+  width: 100%;
+  height: 50%;
+  display: flex;
+
+  &__left {
+    width: 50%;
+    height: 100%;
+    background: url('~img/insta_gallery/insta-gallery-i5.jpg') center no-repeat;
+    background-size: cover;
+    border: 10px solid $gainsboro;
+  }
+
+  &__right {
+    width: 50%;
+    height: 100%;
+  }
+}
+
+.rightimages {
+  width: 50%;
+  height: 100%;
+
+  &__top {
+    width: 100%;
+    height: 50%;
+    background: url('~img/insta_gallery/insta-gallery-i9.jpg') center no-repeat;
+    background-size: cover;
+    border: 10px solid $gainsboro;
+  }
+
+  &__bottom {
+    width: 100%;
+    height: 50%;
+    background: url('~img/insta_gallery/insta-gallery-i7.jpg') center no-repeat;
+    background-size: cover;
+    border: 10px solid $gainsboro;
+  }
+}
+
+@media(max-width: 1450px) {
+  .content__image {
+    height: 500px;
+  }
+
+  .advantages__container {
+    width: 100%;
+  }
+
+  .wrapper{
+    height: 1200px;
+  }
+}
+
+@media(max-width: 1150px){
+  .wrapper{
+    height: 900px;
+  }
+}
+
+@media(max-width: 800px){
+  .navBar__list{
+    display: block;
+  }
+  .content {
+    width: 90%;
+  }
+
+  .advantages__container{
+    flex-wrap: wrap;
+  }
+  .col{
+    width: 80%;
+  }
+
+  .wrapper {
+    width: 90%;
+    height: 1000px;
+  }
+}
+
+@media(max-width: 610px){
+  .heroimage__title{
+    text-align: center;
+  }
+  .logo {
+    margin: 20px 0;
+    width: 90%;
+  }
+
+  .content__image {
+      height: 400px;
+    }
+
+  .wrapper {
+    width: 90%;
+    height: 600px;
+  }
+}
+

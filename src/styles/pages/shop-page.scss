@@ -167,7 +167,7 @@ body {
       &__star{
         width: 15px;
         height: 15px;
-        background: url('~img/star.svg') center;
+        background: url('~img/svg_icons/star.svg') center;
         background-size: cover;
       }
     }
@@ -194,12 +194,12 @@ body {
     }
 
     .wrapper--bag{
-      background: url("~img/bag.svg") center no-repeat;
+      background: url("~img/svg_icons/bag.svg") center no-repeat;
       background-size: contain;
     }
 
     .wrapper--heart{
-      background: url("~img/heart.svg") center no-repeat;
+      background: url("~img/svg_icons/heart.svg") center no-repeat;
       background-size: contain;
       margin-top: 10px;
     }

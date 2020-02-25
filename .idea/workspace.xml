@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c4d1bd7-8e68-4ae4-8e13-6afe772829c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/about-page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/js/0.a061df5c.chunk.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/js/0.a061df5c.chunk.js.map" beforeDir="false" />
@@ -13,8 +14,8 @@
       <change beforePath="$PROJECT_DIR$/build/js/login.066f4a0c.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/js/main.a830ed63.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/js/main.a830ed63.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/shop.7a6e9f79.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/shop.7a6e9f79.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/shop.456486cd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/shop.456486cd.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/login-bundle.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/login-bundle.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/login.html" beforeDir="false" />
@@ -68,8 +69,60 @@
       <change beforePath="$PROJECT_DIR$/build/src/img/twitter.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/src/img/visa.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/src/img/youtube.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Fisher-Price-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/bag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/svg_icons/bag.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/comment.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/svg_icons/comment.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/cursor.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main_page/cursor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/dickie-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/svg_icons/facebook.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/falk-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/feber-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/gallery-i1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main_page/gallery-i1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/gallery-i2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main_page/gallery-i2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/gallery-i3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main_page/gallery-i3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/heart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/svg_icons/heart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/heroimage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main_page/heroimage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/insta-gallery-i1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/insta_gallery/insta-gallery-i1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/insta-gallery-i10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/insta_gallery/insta-gallery-i10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/insta-gallery-i11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/insta_gallery/insta-gallery-i11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/insta-gallery-i2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/insta_gallery/insta-gallery-i2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/insta-gallery-i3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/insta_gallery/insta-gallery-i3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/insta-gallery-i4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/insta_gallery/insta-gallery-i4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/insta-gallery-i5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/insta_gallery/insta-gallery-i5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/insta-gallery-i6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/insta_gallery/insta-gallery-i6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/insta-gallery-i7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/insta_gallery/insta-gallery-i7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/insta-gallery-i8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/insta_gallery/insta-gallery-i8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/insta-gallery-i9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/insta_gallery/insta-gallery-i9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/svg_icons/instagram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/login.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/svg_icons/login.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/lolek-logo-gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/common/lolek-logo-gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/lolek-logo-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/common/lolek-logo-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mastercard.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/svg_icons/mastercard.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/paypal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/svg_icons/paypal.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/quote-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/svg_icons/quote-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/quote-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/svg_icons/quote-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sale-i1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main_page/sale-i1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sale-i2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main_page/sale-i2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/section-warranty.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/main_page/section-warranty.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/svg_icons/star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/twitter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/svg_icons/twitter.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/visa.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/svg_icons/visa.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/wader-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/youtube.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/svg_icons/youtube.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/components/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/components/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/pages/about-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pages/about-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/pages/login-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pages/login-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/pages/main-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pages/main-page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/pages/shop-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/pages/shop-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/sections/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/sections/_about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/sections/_discounts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/sections/_discounts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/sections/_gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/sections/_gallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/sections/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/sections/_hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/sections/_insta-gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/sections/_insta-gallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/sections/_quotation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/sections/_quotation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/sections/_warranty.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/sections/_warranty.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/webpack.common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +132,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -123,7 +176,11 @@
       <recent name="$USER_HOME$/Downloads/webpack-starter-master" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/scripts" />
+      <recent name="$PROJECT_DIR$/src/img/common" />
+      <recent name="$PROJECT_DIR$/src/img/main_page" />
+      <recent name="$PROJECT_DIR$/src/img" />
+      <recent name="$PROJECT_DIR$/src/insta_gallery" />
+      <recent name="$PROJECT_DIR$/src/img/svg_icons" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -140,7 +197,7 @@
       <workItem from="1582367761811" duration="142000" />
       <workItem from="1582367993571" duration="5124000" />
       <workItem from="1582375068904" duration="2837000" />
-      <workItem from="1582494684857" duration="16524000" />
+      <workItem from="1582494684857" duration="34744000" />
     </task>
     <servers />
   </component>
@@ -180,10 +237,12 @@
       <screen x="-652" y="-1692" width="3008" height="1692" />
     </state>
     <state x="703" y="-932" key="VCS.ChangelistChooser/0.0.1680.1050/-652.-1692.3008.1692@-652.-1692.3008.1692" timestamp="1582502176363" />
-    <state x="517" y="-1298" width="670" height="676" key="search.everywhere.popup" timestamp="1582501179482">
-      <screen x="-652" y="-1692" width="3008" height="1692" />
+    <state x="653" y="245" width="670" height="420" key="search.everywhere.popup" timestamp="1582625307271">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="517" y="-1298" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050/-652.-1692.3008.1692@-652.-1692.3008.1692" timestamp="1582501179482" />
+    <state x="653" y="245" width="670" height="420" key="search.everywhere.popup/0.0.1680.1050/-652.-1692.3008.1692@0.0.1680.1050" timestamp="1582625307271" />
+    <state x="653" y="245" width="670" height="420" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1582620283689" />
     <state x="1010" y="583" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1582376547128">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

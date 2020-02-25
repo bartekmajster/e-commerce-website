@@ -27,13 +27,6 @@ body {
 }
 
 @media(max-width: 840px) {
-  aside {
-    display: none;
-  }
-  .nav{
-    top: 0px;
-  }
-
   .about {
     flex-direction: column;
 

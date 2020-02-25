@@ -19,7 +19,7 @@
     user-select: none;
     will-change: transform;
     position: relative;
-    cursor: url("~img/cursor.png"), auto;
+    cursor: url("~img/main_page/cursor.png"), auto;
   }
 }
 .insta__gallery::-webkit-scrollbar {
@@ -34,58 +34,58 @@
   justify-content: center;
 
   &:nth-of-type(1) {
-    background: url("~img/insta-gallery-i1.jpg");
+    background: url("~img/insta_gallery/insta-gallery-i1.jpg");
     background-size: cover;
 
   }
 
   &:nth-of-type(2) {
-    background: url("~img/insta-gallery-i2.jpg");
+    background: url("~img/insta_gallery/insta-gallery-i2.jpg");
     background-size: cover;
   }
 
   &:nth-of-type(3) {
-    background: url("~img/insta-gallery-i3.jpg");
+    background: url("~img/insta_gallery/insta-gallery-i3.jpg");
     background-size: cover;
   }
 
   &:nth-of-type(4) {
-    background: url("~img/insta-gallery-i4.jpg");
+    background: url("~img/insta_gallery/insta-gallery-i4.jpg");
     background-size: cover;
   }
 
   &:nth-of-type(5) {
-    background: url("~img/insta-gallery-i5.jpg");
+    background: url("~img/insta_gallery/insta-gallery-i5.jpg");
     background-size: cover;
   }
 
   &:nth-of-type(6) {
-    background: url("~img/insta-gallery-i6.jpg");
+    background: url("~img/insta_gallery/insta-gallery-i6.jpg");
     background-size: cover;
   }
 
   &:nth-of-type(7) {
-    background: url("~img/insta-gallery-i7.jpg");
+    background: url("~img/insta_gallery/insta-gallery-i7.jpg");
     background-size: cover;
   }
 
   &:nth-of-type(8) {
-    background: url("~img/insta-gallery-i8.jpg");
+    background: url("~img/insta_gallery/insta-gallery-i8.jpg");
     background-size: cover;
   }
 
   &:nth-of-type(9) {
-    background: url("~img/insta-gallery-i9.jpg");
+    background: url("~img/insta_gallery/insta-gallery-i9.jpg");
     background-size: cover;
   }
 
   &:nth-of-type(10) {
-    background: url("~img/insta-gallery-i10.jpg");
+    background: url("~img/insta_gallery/insta-gallery-i10.jpg");
     background-size: cover;
   }
 
   &:nth-of-type(11) {
-    background: url("~img/insta-gallery-i11.jpg");
+    background: url("~img/insta_gallery/insta-gallery-i11.jpg");
     background-size: cover;
   }
 
@@ -108,7 +108,7 @@
       width: 18px;
       height: 18px;
       display: block;
-      background: url("~img/heart.svg") center no-repeat;
+      background: url("~img/svg_icons/heart.svg") center no-repeat;
       background-size: contain;
     }
 
@@ -116,7 +116,7 @@
       width: 18px;
       height: 18px;
       display: block;
-      background: url("~img/comment.svg") center no-repeat;
+      background: url("~img/svg_icons/comment.svg") center no-repeat;
       background-size: contain;
     }
   }

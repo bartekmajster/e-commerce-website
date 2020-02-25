@@ -8,7 +8,7 @@
 
   &__image {
     position: relative;
-    background: url("~img/gallery-i2.jpg") top;
+    background: url("~img/main_page/gallery-i2.jpg") top;
     background-size: cover;
 
     .wrapper {
@@ -43,7 +43,7 @@
   }
 
   .gallery--left{
-    background: url("~img/gallery-i1.jpg") center;
+    background: url("~img/main_page/gallery-i1.jpg") center;
     background-size: cover;
     transform: translateX(-100%);
     transition: all .6s .1s ease-in-out;
@@ -56,7 +56,7 @@
   }
 
   .gallery--middle{
-    background: url("~img/gallery-i2.jpg") top;
+    background: url("~img/main_page/gallery-i2.jpg") top;
     background-size: cover;
     transform: scale(0);
     transition: all .6s .1s ease-in-out;
@@ -69,7 +69,7 @@
   }
 
   .gallery--right{
-    background: url("~img/gallery-i3.jpg") center;
+    background: url("~img/main_page/gallery-i3.jpg") center;
     background-size: cover;
     transform: translateX(100%);
     transition: all .6s .1s ease-in-out;
