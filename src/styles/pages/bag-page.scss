@@ -81,6 +81,12 @@ body {
     align-items: center;
     margin: 0 0 0 auto;
     padding: 20px;
+
+    a{
+      color: $dim_gray;
+      cursor: pointer;
+      text-decoration: none;
+    }
   }
 }
 

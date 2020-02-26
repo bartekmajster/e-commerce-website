@@ -198,10 +198,20 @@ body {
       background-size: contain;
     }
 
+    .wrapper--bag:hover{
+      background: url("~img/svg_icons/bag_dark.svg") center no-repeat;
+      background-size: contain;
+    }
+
     .wrapper--heart{
       background: url("~img/svg_icons/heart.svg") center no-repeat;
       background-size: contain;
       margin-top: 10px;
+    }
+
+    .wrapper--heart:hover{
+      background: url("~img/svg_icons/heart_dark.svg") center no-repeat;
+      background-size: contain;
     }
   }
 }
